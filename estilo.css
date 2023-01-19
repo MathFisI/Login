@@ -25,14 +25,21 @@ section#login{
     width: 250px;
     height: 500px;
     box-shadow: 0 0 10px black;
+    
 }
 main section#login div#imagem{
+    display: block;
     background: blue url(pexels-pixabay-262367.jpg);
     background-size: cover;
     height: 200px;
-    display: block;
+    
 }
 section#login div#formulario{
-    padding: 10px;
     display: block;
+    padding: 10px;
+     
+}
+section#login div#formulario div#h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
